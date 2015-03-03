@@ -1,0 +1,34 @@
+#title{
+   display: inline-block;
+   float: left;
+   border: 2px solid;
+   margin-right: 15px;
+   margin-bottom: 5px;
+   padding-left: 5px;
+   padding-right: 10px;
+   text-align: center;
+   font-size: 1.3em;
+   background: #ffffb2;
+   border-radius: 10px;
+ }
+
+ #title-banner h1{
+   font-size: 4em;
+   text-align: center;
+   border-bottom: 4px solid;
+   margin-bottom: 85px;
+   padding-bottom: 25px;
+ }
+
+ html{
+   background: #EEEEEE;
+ }
+
+ main{
+   width: 80%;
+   margin: auto;
+ }
+
+ p{
+   font-family: sans-serif;
+ }
