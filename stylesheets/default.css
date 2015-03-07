@@ -1,0 +1,12 @@
+header{
+  text-align: center;
+  font-size: 20px;
+  border-bottom: 3px solid;
+}
+
+footer.columns{
+  column-count: 2;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  border-bottom: 1px solid;
+}
