@@ -6,6 +6,8 @@
   display: inline-block;
   width: 100%;
   font-weight: bolder;
+  background-color: #9B8252;
+  color: #344D6A
 }
 
 #columns{
@@ -93,4 +95,12 @@ h4{
 
 h5{
   text-align: center;
+}
+
+body{
+  background-color: #8BA777;
+}
+
+*{
+  color: #344D6A;
 }
