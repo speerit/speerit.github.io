@@ -17,9 +17,10 @@
 
 #search{
   display: inline-block;
-  margin-top: 5px;
+  margin-top: 10px;
   border: 1px solid;
   padding: 2px;
-  right: 1em;
+  margin-left: 90em;
+  padding-right: 135px;
   background-color: yellow;
 }
