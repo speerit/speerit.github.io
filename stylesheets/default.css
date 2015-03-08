@@ -33,7 +33,7 @@
   padding-left: 15px;
   padding-right: 15px;
   border: 2px solid;
-  margin-left: 35em;
+  margin-left: 25em;
   margin-right: 15em;
   border-radius: 10px;
   font-size: 20px;
@@ -50,4 +50,32 @@
   border-radius: 10px;
   font-size: 20px;
   font-weight: bold;
+}
+
+#post1{
+  border: 2px solid;
+  border-radius: 10px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 20em;
+  margin-right: 20em;
+  padding: 4px;
+}
+
+#post2{
+  border: 2px solid;
+  border-radius: 10px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 20em;
+  margin-right: 20em;
+  padding: 4px;
+}
+
+h3{
+  margin: 0;
+}
+
+p{
+  margin: 8px;
 }
