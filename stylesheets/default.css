@@ -14,6 +14,7 @@
   -moz-column-count: 2; /* Firefox */
   width: 25%;
   margin-left: 40%;
+  padding: 0;
 }
 
 #search{
