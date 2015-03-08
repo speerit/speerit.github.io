@@ -12,7 +12,6 @@
   column-count: 2;
   -webkit-column-count: 2; /* Chrome, Safari, Opera */
   -moz-column-count: 2; /* Firefox */
-  border-top: 1px solid;
 }
 
 #search{
@@ -84,4 +83,7 @@ section h2{
 
 #footer{
   text-align: center;
+  border-top: 1px solid;
+  width: 75%;
+
 }
