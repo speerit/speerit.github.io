@@ -15,10 +15,11 @@
   border-bottom: 1px solid;
 }
 
-.search{
+#search{
   display: inline-block;
   margin-top: 5px;
   border: 1px solid;
   padding: 2px;
   right: 1em;
+  background-color: yellow;
 }
