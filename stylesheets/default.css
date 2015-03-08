@@ -1,11 +1,12 @@
 #header{
   text-align: center;
-  font-size: 20px;
+  font-size: 35px;
   border-bottom: 3px solid;
   background-color: red;
   top: 0;
   display: inline-block;
-  width: 100%
+  width: 100%;
+  font-weight: bolder;
 }
 
 #columns{
@@ -27,12 +28,16 @@
 
 #blog-t{
   display: inline-block;
-  padding: 3px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
   border: 2px solid;
   margin-left: 35em;
   margin-right: 15em;
   border-radius: 10px;
   font-size: 20px;
+  font-weight: bold;
 }
 
 #blog-c{
@@ -40,8 +45,9 @@
   border: 2px solid;
   padding-top: 3px;
   padding-bottom: 3px;
-  padding-left: 7px;
-  padding-right: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
   border-radius: 10px;
   font-size: 20px;
+  font-weight: bold;
 }
