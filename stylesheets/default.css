@@ -21,7 +21,7 @@
   margin-top: 10px;
   border: 1px solid;
   padding: 2px;
-  margin-left: 90em;
+  margin-left: 85em;
   padding-right: 135px;
   background-color: yellow;
 }
@@ -78,4 +78,8 @@ h3{
 
 p{
   margin: 8px;
+}
+
+h2{
+  text-align: center;
 }
