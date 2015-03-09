@@ -26,6 +26,7 @@
   padding: 2px;
   margin-left: 85em;
   padding-right: 135px;
+  color: #344D6A;
 }
 
 #blog-t{
@@ -40,6 +41,7 @@
   border-radius: 10px;
   font-size: 20px;
   font-weight: bold;
+  color: #344D6A;
 }
 
 #blog-c{
@@ -52,6 +54,7 @@
   border-radius: 10px;
   font-size: 20px;
   font-weight: bold;
+  color: #344D6A;
 }
 
 #post1{
@@ -62,6 +65,7 @@
   margin-left: 20em;
   margin-right: 20em;
   padding: 4px;
+  color: #344D6A;
 }
 
 #post2{
@@ -72,18 +76,22 @@
   margin-left: 20em;
   margin-right: 20em;
   padding: 4px;
+  color: #344D6A;
 }
 
 h3{
   margin: 0;
+  color: #344D6A;
 }
 
 p{
   margin: 8px;
+  color: #344D6A;
 }
 
 section h2{
   text-align: center;
+  color: #344D6A;
 }
 
 h4{
@@ -91,10 +99,12 @@ h4{
   border-top: 1px solid;
   padding-top: 5px;
   width: 100%;
+  color: #344D6A;
 }
 
 h5{
   text-align: center;
+  color: #344D6A;
 }
 
 body{
