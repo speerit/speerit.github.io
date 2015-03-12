@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your page title here</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+
+
+<div id= "title-banner">
+  <h1>Colette's Blog</h1>
+</div>
+
+<main>
+<div id="title" float = "left">
+  <h1>Arrays vs. Hashes</h1>
+  <h2><!--subtitle if wanted--></h2>
+  <h3>Thursday, March 12, 2014></h3>
+</div>
+
+  <div id="content">
+    <p>
+      Hello all! Today, we are talking about Arrays and Hashes These two elements are very similar to each other as they are both collections of things. How they differ is by what they collect and by how they are indexed.
+    </p>
+    <p>
+        Let's start with Arrays. Arrays are an ordered collection that are index with integers.<BR><span id="tab"></span>Let's take, for example, an array called <mark>my_array</mark>. As is the convention with computer related lists, the first index is [0]. In order to access any item in the array, you call the array at the index 1 less than the number in the list that it is. I know that was very wordy so here's an example. Let's say <mark>my_array</mark> is full of the integers: <mark>[22, 16, 7, 8, 11]</mark>. If we wanted to figure out what was in a certain index this is what we would write: <mark>my_array[1]</mark>. This will return what is in index 1. Since the 1st element in the array is index 0 (which is 22), what we would see is this: <mark>16</mark>. See, that's the second element in the array!<BR><span id="tab"></span> A cool attribute of arrays is that they can also be indexed from the end. Let's say, for example, that you want to know what the last object in an array is, but you don't know how big the array is. <mark>my_array[-1]</mark> would return <mark>11</mark>. Additionally, this can be continued on. So, if you wanted to check what was in the second to last index, you would just type <mark>my_array[-2]</mark>. This would return <mark>8</mark>.<BR><span id="tab"></span>Believe it or not, there is actually a third way to access an element by index. You can call the array at a certain index. <mark>my_array.at(2)</mark> or <mark>my_array.at(-3)</mark> would return <mark>7</mark> because that is the 3rd and 3rd from last item in the array. Did you notice that the numbering from 0 and from -1 at the end conventions remained the same? Below, I'm attaching a picture of all of these commands running.
+    </p>
+    <p>
+        <img src="../imgs/my_array.png" alt="my_array in irb">
+    </p>
+    <p>
+        <!--4th paragraph-->
+    </p>
+    <p>
+        <!--crazy fifth paragraph-->
+    </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </div>
+</main>
+
+</html>
