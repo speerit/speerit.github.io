@@ -111,7 +111,23 @@ h5{
   color: #344D6A;
 }
 
-body{
+html, body{
   background-color: #8BA777;
+  height: 100%;
 }
 
+#container{
+  min-height: 100%;
+  margin-bottom: -330px;
+  position: relative;
+}
+
+#footer{
+  height: 330px;
+  position: relative;
+}
+
+.clearfooter{
+  height: 330px;
+  clear: both;
+}
