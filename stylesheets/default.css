@@ -131,3 +131,31 @@ html, body{
 *{
   margin: 0;
 }
+
+#nav li{
+  float: center;
+  padding: 0 2% .8em 0;
+}
+
+li{
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+#nav {
+  list-style: none;
+  float: center;
+  width: 62%;
+  padding: 0;
+  position: relative;
+  left: 5%
+}
+
+ul{
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
