@@ -38,19 +38,18 @@
    padding: 20px;
 }
 
-
-#container{
+.container{
   min-height: 100%;
-  margin-bottom: -330px;
-  position: relative;
+  height: auto !important;
+  margin: 0 auto -4em;
+  height: 100%;
 }
 
-#footer{
-  height: 330px;
-  position: relative;
-}
-
-.clearfooter{
-  height: 330px;
+.footer, .push{
+  height: 4em;
   clear: both;
+}
+
+*{
+  margin: 0;
 }
