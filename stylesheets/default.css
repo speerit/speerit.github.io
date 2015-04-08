@@ -132,7 +132,7 @@ html, body{
   margin: 0;
 }
 
-#nav li{
+#navigation div{
   float: left;
   padding: 0 2% .8em 0;
 }
@@ -142,7 +142,7 @@ li{
   text-align: -webkit-match-parent;
 }
 
-#nav {
+#navigation {
   list-style: none;
   float: left;
   width: 62%;
