@@ -118,16 +118,16 @@ html, body{
 
 #container{
   min-height: 100%;
-  margin-bottom: -220px;
+  margin-bottom: -330px;
   position: relative;
 }
 
 #footer{
-  height: 220px;
+  height: 330px;
   position: relative;
 }
 
 .clearfooter{
-  height: 220px;
+  height: 330px;
   clear: both;
 }
