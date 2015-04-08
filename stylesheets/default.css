@@ -133,7 +133,7 @@ html, body{
 }
 
 #nav li{
-  float: center;
+  float: left;
   padding: 0 2% .8em 0;
 }
 
@@ -144,7 +144,7 @@ li{
 
 #nav {
   list-style: none;
-  float: center;
+  float: left;
   width: 62%;
   padding: 0;
   position: relative;
