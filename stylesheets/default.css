@@ -163,3 +163,7 @@ ul{
 div{
   display: block;
 }
+
+.classname a{
+  text-decoration: none;
+}
