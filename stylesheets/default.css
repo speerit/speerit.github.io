@@ -1,4 +1,4 @@
-/*#header{
+#header{
   text-align: center;
   font-size: 35px;
   border-bottom: 3px solid;
@@ -8,7 +8,7 @@
   font-weight: bolder;
   background-color: #9B8252;
   color: #3A373E
-} */
+}
 
 #columns{
   column-count: 2;
