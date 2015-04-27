@@ -1,2 +1,0 @@
-# speerit.github.io
-
