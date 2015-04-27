@@ -1,0 +1,12 @@
+# Site settings
+title: Coco's DBC Journey
+email: colette@nmh.com
+description: > # this means to ignore newlines until "baseurl:"
+  Writing stuff.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://colettespeer.com" # the base hostname & protocol for your site
+twitter_username: cocospeer
+github_username:  speerit
+
+# Build settings
+markdown: kramdown

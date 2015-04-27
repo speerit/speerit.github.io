@@ -1,55 +1,23 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Colette's Website</title>
-    <link rel="stylesheet" type="text/css" href="stylesheets/default.css"/>
+---
+layout: default
+---
 
-  </head>
+<div class="home">
 
-  <body class"index">
-    <header>
-      <!--<h1>Colette's Website</h1>-->
+  <h1 class="page-heading">Posts</h1>
 
-      <div class="nav">
-        <ul>
-          <li class="projects"><a href="#">Projects</a></li>
-          <li class="about"><a href="#">About Me</a></li>
-          <li class="resume"><a href="#">Resume</a></li>
-          <li class="blog"><a href="http://speerit.github.io/blog/index">Blog</a></li>
-        </ul>
-      </div>
-    </header>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-    <section>
-      <p>Hello Viewers! Thanks for visiting my website! This is a place where I am going to keep track of my progress as a student at DBC, as a Computer Scientist, and as a Web Developer. I'll post and blog about my journey. I plan on using this website to document my progress. Additionally, I'll use this as a homepage to collect all of the projects I complete. I look forward to expanding this page and keeping everyone updated!</p>
-    </section>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-    <div id="Recent">
-      <h3>Recent Things!</h3>
-        <p>Insert text here!</p>
-    </div>
-
-    <div id="checkit">
-      <h3>Check This Out!</h3>
-      <p>Insert more text here!</p>
-    </div>
-
-    <div class="push"></div>
-  </div> <!--End Container-->
-
-    <div class="footer">
-      <h4>Contact Me!</h4>
-      <ul>
-        <li>colette(at)nmh.com</li>
-        <li>insert twitter here</li>
-        <li>insert linked in link here</li>
-        <li>insert github here</li>
-      </ul>
-      <h5>Copyright Colette Speer 2015 | This site is still under construction.</h5>
-    </div>
-
-  </body>
-
-</html>
+</div>
